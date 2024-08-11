@@ -112,7 +112,7 @@ $reportContent = @"
 # Initialize Errors and  Error Report
 $errors = @() #Initial blank array of errors.
 
-$errorSubject = "WARNING! Errors found on $hostname"
+$errorSubject = "WARNING! Errors found on $env:COMPUTERNAME"
 
 $errorReportContent = @"
 <title>$errorSubject</title>
